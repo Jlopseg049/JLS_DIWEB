@@ -42,6 +42,7 @@ img{
 p{
     margin-left: 10%;
     text-indent: 5%;
+    text-align:justify;
     }
     .fecha{
         color:red;
