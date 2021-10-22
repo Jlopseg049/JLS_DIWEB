@@ -1,0 +1,53 @@
+
+body{
+    background: #d3d3d3;
+    margin: 3% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#Contenedor{
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+#Cabecera{
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.Titular{
+    background: #808080;
+
+    margin-top: 3.5%;
+    margin-bottom: 1%;
+    padding: 0.2% 1%;
+    font-weight: 600;
+    color:white;
+    font-size: 2em;
+    
+}
+
+.Cuerpo{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+img{
+    margin: 0 10px 10px 0;
+    float: left;
+}
+p{
+    margin-left: 10%;
+    text-indent: 5%;
+    }
+    .fecha{
+        color:red;
+        font-style: italic;
+    }
+    .recomendacion{
+        background: white;
+        font-weight: bolder;
+    }
