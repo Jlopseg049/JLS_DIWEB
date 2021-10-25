@@ -1,0 +1,46 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    border: 0.3rem black solid;
+}
+
+#i1{
+    border: 0.5rem red;
+    border-style: double none none double;
+}
+
+#i2{
+    border-top:   0.2rem blue dashed;
+    border-left:  0.8rem green solid;
+    border-right: 0.4rem green solid;
+    border-bottom:0.8rem blue dashed;
+}
+
+#i3{
+    border-top:0.8rem yellow double;
+    border-bottom:0.8rem yellow double;
+    border-left:0.4rem yellow double;
+    border-right:0.4rem yellow double;
+}
+
+#i4{
+    border-top: 0.8rem solid greenyellow;
+    border-bottom: 0.8rem solid blue;
+}
+
+#i5{
+    border-top: 0.8rem red dashed;
+    border-right: 0.8rem black dashed;
+    border-left: 0.8rem black dashed;
+    border-bottom: 0.8rem black dotted;
+}
+
+#i6{
+    border-top: 0.2rem black dotted;
+    border-left: 0.6rem red double ;
+    border-right: 0.6rem black solid ;
+    border-bottom: 0.4rem black dashed;
+}
