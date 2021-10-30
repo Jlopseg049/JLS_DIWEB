@@ -1,0 +1,70 @@
+/*Flotaciones*/
+.floatLft{
+    float:left;
+    margin-right: 0.5%;
+    
+}
+
+.floatRght{
+    float: right;
+}
+
+
+.clearFlt{
+    clear: both;
+}
+
+/*Alineaciones*/
+#centrado{
+    text-align: center;
+}
+
+
+/*Campos*/
+body{
+    background: #c4c6b9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 3em;
+    color: #161698;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: right;
+    letter-spacing: 50px;
+}
+
+article{
+        font-size: 1.3em;
+        margin-bottom: 2%;
+        margin-left: 0.5%;
+}
+
+.floatLft>img{
+    width:257px;
+    height:321px;
+}
+.floatRght>img{
+    width:297px;
+    height:320px;
+}
+#centrado>img{
+    width:326px;
+    height:320px;
+}
+
+h2{
+    background-color: #5d6336;
+    color: white;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+strong{
+    font-style: italic;
+}
+
+address{
+   margin-top: 8em;
+}

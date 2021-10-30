@@ -1,17 +1,36 @@
 body{
     background-color: #267352;
+    font-size: 1.4em;
+    color: white;
 }
 .p1{
     padding: 20px;
-    font-size: 1.4em;
     margin-right: 23%;
     margin-left: 23%;
     background-color: white;
     border: 10px solid black;
     border-radius: 30px;
+    color:black;
 }
 .p25{
-    border: 20px solid #802400;
+    border: 15px solid #802400;
     background: #ac5a39;
     margin-right: 50%;
+    text-align: justify;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.p36{
+    border: 15px solid #804800;
+    background: #ac7a34;
+    margin-left: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.p47{
+    padding: 20px;
+    margin-right: 23%;
+    margin-left: 23%;
+    background-color: #004680;
+    border: 5px dashed #3978ac;
 }
