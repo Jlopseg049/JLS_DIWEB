@@ -1,0 +1,67 @@
+:root{
+    --HeaderColor:#004d46;
+    --BodyColor:#4db3aa;
+
+    --borderColor1:#e64d00;
+    --borderColor2:#ffaa33;
+
+    --sectionColor:#ffffff;
+}
+
+body{
+    margin: 0 10%;
+    background-color: var(--BodyColor);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+header>h1{
+    margin-top: 0;
+    margin-bottom:0 ;
+}
+
+
+header>h1, header>nav, header>nav>a{
+    color: var(--HeaderColor);
+    text-align: center;
+    font-weight: bold;
+}
+
+a:visited{
+    color:var(--borderColor1);
+}
+
+img{
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+section{
+    background-color: var(--sectionColor);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+    section>p{
+        margin: 30px;
+    }
+
+.impar{
+    border: 20px solid var(--borderColor1);
+}
+    .impar>img{
+        float: left;
+        border: 20px solid var(--borderColor1);
+        background-color: var(--borderColor2);
+    }
+
+.par{
+    border: 20px solid var(--borderColor2);
+}
+    .par>img{
+        float: right;
+        border: 20px solid var(--borderColor2);
+        background-color: var(--borderColor1);
+    }

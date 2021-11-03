@@ -1,0 +1,58 @@
+:root{
+    --textColorSection1:#ffffff;
+    --textColorSection2:#ffdd00;
+    --textColorSection3:#810000;
+    --textColorSection4:#004d06;
+
+    --borderColorSection:#000000;
+
+}
+
+body{
+    background: url("../IMG/corazon-1.svg") repeat-y top left, 
+                url("../IMG/corazon-2.svg") repeat-y right top;
+    background-size: 150px;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+section{
+    border: 2px solid var(--borderColorSection);
+}
+
+    section>p{
+        font-weight: bold;
+    }
+
+#section1{
+    color: var(--textColorSection1);
+    background-image: url("../IMG/manchas.png");
+    margin: 0 150px;
+}
+
+#section2{
+    color: var(--textColorSection2);
+    background:url("../IMG/fuego.svg") no-repeat bottom left, 
+               url("../IMG/fuego.svg") no-repeat bottom right, 
+               url("../IMG/tallos.jpg");
+    margin: 10px  150px 0 150px;
+}
+
+#section3{
+    color: var(--textColorSection3);
+    background: url("../IMG/ojo.svg") no-repeat center, url("../IMG/hexagonos.jpg");
+    margin: 10px  150px 0 150px;
+}
+
+#section4{
+    color: var(--textColorSection4);
+    background: url("../IMG/caballo.svg") repeat-x bottom, url("../IMG/estrellas.png") repeat;
+    background-size: 100px auto;
+    padding-bottom: 50px;
+    margin: 10px  150px 0 150px;
+}

@@ -1,3 +1,86 @@
-body{
-    background-color: #c7c8d1;
+:root{
+    --bodyColor:#c7c8d1;
+    --headColor:#575a75;
+    
+    --artTitleColor:#ffffff;
+
+    --art1BorderColor:#ca7249;
+    --art1TitleColor:#cc5500;
+    --art1SectionColor1:#db5b00;
+    --art1SectionColor2:#ffa666;
+
+    --art2BorderColor:#e600e6;
+    --art2TitleColor:#e600e6;
+    --art2SectionColor1:#ff80ff;
+    --art2SectionColor2:#ffccff;
+    
 }
+
+@font-face {
+    font-family: "cabin-sketch";
+    src: url("../Fonts/cabin-sketch.woff");
+}
+
+@font-face {
+    font-family: "gabriela";
+    src: url("../Fonts/gabriela.woff");
+}
+
+body{
+    background-color: var(--bodyColor);
+}
+
+h1{
+    font-size: 4rem;
+    color: var(--headColor);
+    text-align: center;
+    margin-top: 0;
+    font-family: "cabin-sketch";
+}
+
+h2{
+    margin:0;
+    font-family: "gabriela";
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 0 17px 0 0;
+    color: var(--artTitleColor);
+    font-size: 2rem;
+}
+
+.Art1{
+    border: var(--art1BorderColor) 3px solid;
+    border-radius: 0 20px 20px 20px;
+    margin: 10px 50px;
+}
+    .Art1>h2{
+        background-color: var(--art1TitleColor);
+    }
+    .Art1Sec1{
+        padding: 2px 10px;
+        background-color: var(--art1SectionColor1);
+    }
+    .Art1Sec2{
+        border-radius: 0 0 20px 20px;
+        padding: 2px 10px;
+        background-color: var(--art1SectionColor2);
+    }
+
+    
+.Art2{
+    border: var(--art2BorderColor) 3px solid;
+    border-radius: 0 20px 20px 20px;
+    margin: 10px 50px;
+}
+    .Art2>h2{
+        background-color: var(--art2TitleColor);
+    }
+    .Art2Sec1{
+        padding: 2px 10px;
+        background-color: var(--art2SectionColor1);
+    }
+    .Art2Sec2{
+        border-radius: 0 0 20px 20px;
+        padding: 2px 10px;
+        background-color: var(--art2SectionColor2);
+    }
