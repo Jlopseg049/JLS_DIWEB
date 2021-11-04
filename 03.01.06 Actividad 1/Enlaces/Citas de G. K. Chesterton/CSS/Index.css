@@ -1,0 +1,39 @@
+:root{
+    --textColor:#ffffff;
+    --bodyBackgroundColor:#8a675c;
+    --aColor:#195366;
+    --aBackgroundColor:#d6edf5;
+}
+
+body{
+    margin: 10px 15%;
+    color: var(--textColor);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    background-color: var(--bodyBackgroundColor);
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+}
+p{
+    line-height: 200%;
+}
+
+nav{
+    margin-top: 5%;
+    text-align: center;
+}
+    .enlaces{
+        text-decoration: none;
+        font-size: 2rem;
+        color:var(--aColor);
+        background-color: var(--aBackgroundColor);
+        border: 5px solid var(--aColor);
+        padding: 5px;
+        border-radius: 10px;
+        margin-right: 2%;
+    }
