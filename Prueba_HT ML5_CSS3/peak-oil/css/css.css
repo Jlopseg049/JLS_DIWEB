@@ -1,0 +1,76 @@
+:root{
+    --bgColor:#cccecc;
+    --navbrTopLeft:#b4b2b4;
+    --navbrBottomRigth:#575957;
+    --bgNav:#fcfefc;
+    --headArticle:#808080;
+    --bgArticle:#e6e6e6;
+    --bgSubArticle:white;
+}
+
+body{
+    background-color: var(--bgColor);
+}
+h1{
+    font-family:monospace;
+    text-align: right;
+    font-size: 3rem;
+    text-transform:uppercase;
+    word-spacing: 15px;
+    margin-right: 5%;
+}
+nav{
+    padding: 5px;
+    margin-left: 3%;
+    float: left;
+    background-color: var(--bgNav);
+    border-top: 2px solid var(--navbrTopLeft);
+    border-left: 2px solid var(--navbrTopLeft);
+    border-right: 2px solid var(--navbrBottomRigth);
+    border-bottom: 2px solid var(--navbrBottomRigth);
+}
+
+    nav>a{
+        display: block
+    }
+section{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+article{
+    background-color: var(--bgArticle);
+    border-radius: 15px;
+
+}
+hr{
+    border-top: 50% yellow solid;
+}
+h2,article>article>h3{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    color: white;
+    background-color: var(--headArticle);
+}
+article>p{
+    margin:10px;
+}
+
+footer{
+    /*Entiendo que el tipo de letra es Comic Sans pero como no se dio la fuente pongo otra como ejemplo para mostrar que se cambiar la fuente*/
+    font-family:fantasy;
+    margin-left: 10%;
+    margin-right: 5%;
+    background-color: yellow; 
+}
+
+article>article>h3{
+    border-radius: 0;
+}
+article>article>p{
+    text-indent: 5%;
+}
+article>article{
+    background-color: white;
+    border-radius: 0;
+}
