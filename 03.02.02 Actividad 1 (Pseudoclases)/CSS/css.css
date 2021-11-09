@@ -1,0 +1,33 @@
+:root{
+    --h1FirstLetterColor:red;
+    --h2Color:red;
+    --liColor:lightgreen;
+}
+
+article:first-child> h1::first-letter, h2:nth-last-of-type(1)::first-letter{
+    color: var(--h1FirstLetterColor);
+}
+
+h2:nth-child(2){
+    color: var(--h2Color);
+}
+
+li{
+    list-style: none;
+}
+
+    li:nth-child(3){
+        color: var(--liColor);
+    }
+
+    li:nth-child(odd):hover::after{
+        margin-left: 5px;
+        content: "Soy un elemento impar";
+    }
+
+    li:nth-child(even):hover::before{
+        margin-right: 5px;
+        content: "Soy un elemento par";
+    }
+
+    
