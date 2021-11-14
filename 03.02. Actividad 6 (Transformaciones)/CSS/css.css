@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+    position: relative;
+  }
+  .caja{
+    width: 180px;
+    height: 180px;
+    background-color: #30B037;
+    color: #FFF;
+    text-align: center;
+    line-height: 180px;
+    margin: 15px;
+    float: left;
+    font-size: 18px;
+    font-family: Arial;
+    /*En caso de querer transicionar solo una funcion
+    tendremos que nombrarla (ejemplo :
+        transition: background 2s)*/
+    transition: all 0.3s;
+  }
+
+  .caja1:hover{
+    transform: scale(0.9,0.9);
+    background-color: #c0392b;
+  }
+
+  .caja2:hover{
+    transform: rotate(250deg);
+    background-color: #9b59b6;
+  }
+
+  .caja3:hover{
+    transform:skew(40deg,10deg);
+    background-color: #2980b9;
+  }
+
+  .caja4:hover{
+    transform: skewX(40deg);
+    background-color: #3498db;
+  }
+
+  .caja5:hover{
+    transform: skewy(10deg);
+    background-color: #7ac7a0;
+  }
+
+  .caja6:hover{
+    transform:translate(20px,10px);
+    background-color: #f1c40f;
+    box-shadow: 5px 10px 8px #000;
+  }
+
+  .caja7:hover{
+    transform:translateX(20px);
+    background-color: #f1c40f;
+  }
+
+  .caja8:hover{
+    transform:translateY(40px);
+    background-color: #95a5a6;
+  }
+
+  .caja9:hover{
+    background-color: #2c3e50;
+    transform-style: preserve-3d;
+    transform: rotatey(45deg);
+  }
+
+  .caja10:hover{
+    perspective: 100px;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+    background-color: #808080;
+  }
+  .caja11:hover{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+    background-color: #000;
+  }
+
+
