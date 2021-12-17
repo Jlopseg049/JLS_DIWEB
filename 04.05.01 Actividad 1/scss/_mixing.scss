@@ -1,0 +1,28 @@
+@mixin color($color, $bgColor){
+    color:$color;
+    background-color: $bgColor;
+}
+
+@mixin hoverColor($color, $bgColor){
+    color:$color;
+    background-color: $bgColor;
+}
+
+@mixin b-box($b-box:border-box){
+    -webkit-box-sizing: $b-box;
+    -moz-box-sizing: $b-box;
+    box-sizing: $b-box;
+}
+
+@mixin transition($attrib, $time, $type: linear){
+    -moz-transition: $attrib, $time, $type;
+    -webkit-transition: $attrib, $time, $type;
+    transition: $attrib, $time,$type;
+    
+}
+
+@mixin animation($attrib, $time, $type: linear){
+    -moz-animation: $attrib, $time, $type;
+    -webkit-animation: $attrib, $time, $type;
+    animation: $attrib, $time, $type;
+}
