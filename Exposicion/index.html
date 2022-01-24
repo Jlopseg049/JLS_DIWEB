@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exposicion</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>    </head>
+    <body>
+        <div class="container">
+            <h2>Los botones se pueden mostrar de 2 maneras, separados o agrupados <br>
+                dependerá de si la caja contenedora tiene la clase ".button-group":</h2>
+                <div class="text-center">
+                <div class=" btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">Left</button>
+                    <button type="button" class="btn btn-primary">Middle</button>
+                    <button type="button" class="btn btn-primary">Right</button>
+                </div></div>
+        
+                <div class="m-4 text-center" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">Left</button>
+                    <button type="button" class="btn btn-primary">Middle</button>
+                    <button type="button" class="btn btn-primary">Right</button>
+                  </div>
+
+            <h2>Bootstrap además nos ofrece diversas maneras de estilizar estos botones:</h2>
+                    <div class="text-center">    
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-danger">Left</button>
+                        <button type="button" class="btn btn-warning">Middle</button>
+                        <button type="button" class="btn btn-success">Right</button>
+                    </div>
+                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-primary">Left</button>
+                        <button type="button" class="btn btn-outline-primary">Middle</button>
+                        <button type="button" class="btn btn-outline-primary">Right</button>
+                    </div></div>
+                
+                
+                
+                    <h2>Además el uso de estos botones no se limita solos al uso de la etiqueta &lt;button&gt; si no, <br>
+                    que es un estilo que además podremos aplicar a elementos como enlaces o incluso a nuestros formularios:</h2>
+                
+                    <h2><br>Enlaces</h2>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-primary active" aria-current="page">Active link</a>
+                        <a href="#" class="btn btn-primary">Link</a>
+                    </div>
+                    <a href="https://google.es" target="_blank" class="btn btn-primary">Directo a google</a>
+                
+                    <h2><br>Checkboxs:</h2>
+                    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+                    
+                        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+                    
+                        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+                    </div>
+
+                    <h2><br>Radio buttons:</h2>
+                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+                    
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+                    
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+                    </div>
+
+                    <h2><br>Navegador:</h2>
+                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group me-2" role="group" aria-label="First group">
+                          <button type="button" class="btn btn-primary">1</button>
+                          <button type="button" class="btn btn-primary">2</button>
+                          <button type="button" class="btn btn-primary">3</button>
+                          <button type="button" class="btn btn-primary">4</button>
+                        </div>
+                        <div class="btn-group me-2" role="group" aria-label="Second group">
+                          <button type="button" class="btn btn-secondary">5</button>
+                          <button type="button" class="btn btn-secondary">6</button>
+                          <button type="button" class="btn btn-secondary">7</button>
+                        </div>
+                        <div class="btn-group" role="group" aria-label="Third group">
+                          <button type="button" class="btn btn-info">8</button>
+                        </div>
+                      </div>
+
+                    <h2><br>Desplegable:</h2>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+        </div>
+    </body>
+</html>
